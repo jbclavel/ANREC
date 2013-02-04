@@ -9,8 +9,8 @@ import java.util.Random;
 import anrec.ObjetDessinable;
 
 /**
- * Cette classe représente un Cluster pour une méthode de clustering k-mean.
- * Un cluster possède un centre, ainsi qu'une liste de points.
+ * Cette classe reprï¿½sente un Cluter pour une mï¿½thode de clustering k-mean.
+ * Un cluster possï¿½de un centre, ainsi qu'une liste de points.
  * @author CLAVEL & AMAR
  * @version 1.0
  */
@@ -41,7 +41,7 @@ public class Cluster implements ObjetDessinable{
 	
 // Constructeur
 	/**
-	* Constructeur d'un Cluster étant données un centre
+	* Constructeur d'un Cluster ï¿½tant donnï¿½es un centre
 	* @param centre Centre du cluster
 	*/
     public Cluster(int ID, float[] centre, Kmean kmean) {
@@ -79,11 +79,11 @@ public class Cluster implements ObjetDessinable{
 	}
 
 
-// Méthodes	
+// Mï¿½thodes	
 	
 	/**
 	 * Ajoute un point au cluster
-	 * @param 	point	Point à ajouter au cluster
+	 * @param 	point	Point ï¿½ ajouter au cluster
 	 */
 	public void addPoint(float[] point) { //called from CAInstance
         this.points.add(point);
@@ -91,7 +91,7 @@ public class Cluster implements ObjetDessinable{
 	
 	/**
 	 * Enleve un point au cluster
-	 * @param 	point	Point à enlever au cluster
+	 * @param 	point	Point ï¿½ enlever au cluster
 	 */
 	public void removePoint(float[] point) { //called from CAInstance
         this.points.remove(point);
