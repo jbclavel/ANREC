@@ -11,7 +11,7 @@ import anrec.ObjetDessinable;
 /**
  * Cette classe représente un Cluster pour une méthode de clustering k-mean.
  * Un cluster possède un centre, ainsi qu'une liste de points.
- * @author Sébastien BRO & Marie MAINGUY
+ * @author CLAVEL & AMAR
  * @version 1.0
  */
 

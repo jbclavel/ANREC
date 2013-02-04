@@ -9,13 +9,12 @@ import javax.swing.JFrame;
 /**
  * une classe comportant une zone graphique dans laquelle on peut dessiner ;
  * le dessin est refait automatiquement par la classe Panel associee ; tous
- * les objets de type ObjetDessinable ajout�s � la liste sont redessines par 
+ * les objets de type ObjetDessinable ajoutes à la liste sont redessines par 
  * un appel a leur methode dessinerObjet(Graphics g)
  * 
  * @see ObjectDessinable,LoftPanel
- * @author moreau
- *
  */
+
 public class ZoneGraphique extends JFrame {
 
 	/**
@@ -25,8 +24,6 @@ public class ZoneGraphique extends JFrame {
 	
 	/**
 	 * constructeur
-	 *
-	 * @param titre le nom de l'application
 	 */
 	public ZoneGraphique(String titre)  {
 		// appel au constructeur de base
@@ -75,5 +72,4 @@ public class ZoneGraphique extends JFrame {
 	public int getHeight() {
 		return getContentPane().getHeight();
 	}
-	
 }
